@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 
 
-const WelcomeComponent = ()=>{
+const Home = ()=>{
     return(
         <div class="homepage">
           <header>
@@ -20,4 +20,4 @@ const WelcomeComponent = ()=>{
 }
 
 
-export default WelcomeComponent;
+export default Home;

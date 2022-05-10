@@ -2,9 +2,9 @@
 
 const Game= ()=>{
     return(
-        <main>
+        <main class="new-game">
         <div>
-
+        <img class="bg" src={require("../assets/img/card-game-img.jpg")} alt="green-background"/>
 
         </div>
         </main>

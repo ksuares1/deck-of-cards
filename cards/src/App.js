@@ -1,20 +1,20 @@
 import './App.css';
 import React from 'react';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-import WelcomeComponent from './components/Welcome.js';
-
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './components/Home';
+import Game from './components/Game';
 function App() {
   return (
-   <div>
-     {/* <Router>
-       <div>
-         <Route exact path="/" component={WelcomeComponent}/>
-       </div>
-     </Router> */}
-     <WelcomeComponent/>
-   </div>
-  
-        
+    <>
+     <Router>
+       <Switch>
+         <Route exact path="/" component={Home} />
+         <Route path ="/game" component={Game} />
+         {/* <Redirect  to ="/" /> */}
+       </Switch>
+
+     </Router>
+     </>
        
     
   );
