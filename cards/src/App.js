@@ -1,18 +1,17 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './components/Home';
-import Game from './components/Game';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import Game from './Pages/Game';
 function App() {
   return (
     <>
      <Router>
-       <Switch>
-         <Route exact path="/" component={Home} />
-         <Route path ="/game" component={Game} />
+       <Routes>
+         <Route  path="/" element={<Home/>} />
+         <Route  path ="/game" element={<Game/>} />
          {/* <Redirect  to ="/" /> */}
-       </Switch>
-
+         </Routes>
      </Router>
      </>
        
