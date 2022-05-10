@@ -3,19 +3,19 @@ import Button from 'react-bootstrap/Button';
 
 const WelcomeComponent = ()=>{
     return(
-        <main>
+        <div class="homepage">
           <header>
             <h1> Welcome to Card Festival</h1>
           </header>
   <div className="mb-2">
     <Button variant="primary" size="lg">
-      Large button
-    </Button>{' '}
+      Play
+    </Button>
     <Button variant="secondary" size="lg">
-      Large button
+      Quit
     </Button>
   </div>
-        </main>
+        </div>
     )
 }
 
