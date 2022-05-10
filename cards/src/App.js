@@ -1,16 +1,17 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import WelcomeComponent from './components/Welcome.js';
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+import WelcomeComponent from './components/Welcome';
 
 function App() {
   return (
    <div>
-     <Router>
+     {/* <Router>
        <div>
          <Route exact path="/" component={WelcomeComponent}/>
        </div>
-     </Router>
+     </Router> */}
+     <WelcomeComponent/>
    </div>
   
         

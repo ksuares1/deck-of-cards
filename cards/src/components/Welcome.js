@@ -1,11 +1,12 @@
-import React from 'react';
 import Button from 'react-bootstrap/Button';
 
 
 const WelcomeComponent = ()=>{
     return(
         <main>
-               <main>
+          <header>
+            <h1> Welcome to Card Festival</h1>
+          </header>
   <div className="mb-2">
     <Button variant="primary" size="lg">
       Large button
@@ -14,7 +15,6 @@ const WelcomeComponent = ()=>{
       Large button
     </Button>
   </div>
-     </main>
         </main>
     )
 }
