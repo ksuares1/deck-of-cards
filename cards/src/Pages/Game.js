@@ -2,12 +2,12 @@
 
 const Game= ()=>{
     return(
-        <main class="">
+        <section class="game-begins">
         <div>
-        {/* <img class="bg" src={require("../assets/img/card-game-img.jpg")} alt="green-background"/> */} 
+         <img class="game-bg" src={require("../assets/img/card-game-img.jpg")} alt="green-background"/> 
 
         </div>
-        </main>
+        </section>
     )
 }
 

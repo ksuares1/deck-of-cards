@@ -11,9 +11,11 @@
   text-align: center;
   height: 1000px;
   background-color: red;
+  position:static;
+  overflow:hidden;
 }
 
-/* Home */
+/* Homepage */
 .home-card{
   text-align:center;
 }
@@ -21,22 +23,30 @@
   width: 35%;
   border-radius:50%;
 }
+/* buttons */
+.play{
+  background-color:white;
+}
+#welcome{
+  color:white;
+}
+/* Game */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header { */
   /* background-color: #282c34; */
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; */
+/* } */
 
 .App-link {
   color: #61dafb;
