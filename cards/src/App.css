@@ -19,6 +19,7 @@
 }
 .bg{
   width: 35%;
+  border-radius:50%;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
