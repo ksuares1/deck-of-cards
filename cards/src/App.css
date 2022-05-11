@@ -24,12 +24,10 @@
   border-radius:50%;
 }
 /* buttons */
-.play{
-  background-color:white;
+.play-button{
+  text-align:center;
 }
-#welcome{
-  color:white;
-}
+
 /* Game */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
