@@ -14,6 +14,9 @@ const Home = ()=>{
     <Button variant="secondary" size="lg">
       Quit
     </Button>
+    <div class="home-card">
+   <img class="bg" src={require("../assets/img/array-of-cards.jpg")} alt="assortment-of-cards"/>
+  </div>
   </div>
         </div>
     )
