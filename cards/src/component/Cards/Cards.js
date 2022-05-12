@@ -2,9 +2,9 @@
 
 let Cards =() =>{
     return(
-        <div class="52-deck">
+        <div class="deck">
         <div>
-        <img class="52-deck" src={require("../../assets/img/array-of-cards.jpg")} alt="52-deck-of-cards"/>
+        <img class="deck" src={require("../../assets/img/deck-pile.jpg")} alt="52-deck-of-cards"/>
     </div>
     </div>
     )
