@@ -40,16 +40,19 @@
   text-align: center;
 }
 
-.suit-clubs{
+.suit-clubs , .suit-hearts{
   display:inline-block;
   flex-direction: row;
 }
 
-.suit-clubs-cards{
-  width:80px;
+.ND{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.suit-clubs-cards{
+  width:80px;
+  
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
