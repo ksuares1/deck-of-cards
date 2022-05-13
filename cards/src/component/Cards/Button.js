@@ -7,9 +7,11 @@ class LoggingButton extends React.Component {
   
     render() {
       return (
+        <div class="start-game">
         <button class="start-game" onClick={this.handleClick}>
           Start Game
         </button>
+        </div>
       );
     }
 }

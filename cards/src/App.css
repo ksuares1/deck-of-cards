@@ -29,19 +29,15 @@
 }
 
 /* Game */
-
-.game-bg{
-  width:100%;
+.welcome{
+  text-align: center;
 }
 
-.deck{
-display: flex;
-flex-direction: column;
-width:50%;
-}
+
 
 .start-game{
   border-radius:10px;
+  text-align: center;
 }
 
 .suit-clubs{
@@ -49,8 +45,11 @@ width:50%;
   flex-direction: row;
 }
 
-.suit-clubs-2{
+.suit-clubs-cards{
   width:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
