@@ -35,12 +35,13 @@
 
 
 
+
 .start-game{
   border-radius:10px;
   text-align: center;
 }
 
-.suit-clubs , .suit-hearts{
+.suit-clubs , .suit-hearts , .suit-diamonds{
   display:inline-block;
   flex-direction: row;
 }
