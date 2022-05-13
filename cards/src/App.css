@@ -42,7 +42,15 @@ width:50%;
 
 .start-game{
   border-radius:10px;
-  
+}
+
+.suit-clubs{
+  display:inline-block;
+  flex-direction: row;
+}
+
+.suit-clubs-2{
+  width:80px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
